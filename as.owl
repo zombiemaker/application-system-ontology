@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl">
+    <Prefix name="" IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl</Import>
+    <Declaration>
+        <Class IRI="#OWLClass_0477ae21_e844_4cf0_955c_2a9e923ab215"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_134448ba_584f_4384_b608_29e481cbfd09"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_13e1d334_65bc_4eb1_b343_2a1fa3e6b493"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_2ed6d771_0d88_44c3_8ed6_f9965da6347c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_360e2933_7bb2_4a61_b297_a9f5ab73e47a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_3cecafe4_04a9_4c79_ac73_5408f2644fa0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_9b332b07_1ec5_416c_9a93_041d6de84e27"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_9cfc36be_d6d2_4952_87ef_ebfc10ec0394"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_a1f4988e_1299_4ba2_aef5_53b02af6bb84"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_c536565b_83e3_476c_aa03_810ed9c1cabe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_d1dcdc6c_1d51_4138_917c_433f442570d3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_edea6fae_5c73_4ef8_b273_6ac2f0ab9e4b"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#OWLClass_0477ae21_e844_4cf0_955c_2a9e923ab215"/>
+        <Class IRI="#OWLClass_2ed6d771_0d88_44c3_8ed6_f9965da6347c"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OWLClass_9b332b07_1ec5_416c_9a93_041d6de84e27"/>
+        <Class IRI="#OWLClass_a1f4988e_1299_4ba2_aef5_53b02af6bb84"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#OWLClass_0477ae21_e844_4cf0_955c_2a9e923ab215"/>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_134448ba_584f_4384_b608_29e481cbfd09"/>
+        <Class IRI="#OWLClass_c536565b_83e3_476c_aa03_810ed9c1cabe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_13e1d334_65bc_4eb1_b343_2a1fa3e6b493"/>
+        <Class IRI="#OWLClass_c536565b_83e3_476c_aa03_810ed9c1cabe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_2ed6d771_0d88_44c3_8ed6_f9965da6347c"/>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_360e2933_7bb2_4a61_b297_a9f5ab73e47a"/>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_3cecafe4_04a9_4c79_ac73_5408f2644fa0"/>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_7c6e712c_9b9b_4760_b470_d3e6303ff227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1"/>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_7c6e712c_9b9b_4760_b470_d3e6303ff227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_9b332b07_1ec5_416c_9a93_041d6de84e27"/>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_9cfc36be_d6d2_4952_87ef_ebfc10ec0394"/>
+        <Class IRI="#OWLClass_a1f4988e_1299_4ba2_aef5_53b02af6bb84"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_a1f4988e_1299_4ba2_aef5_53b02af6bb84"/>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_c536565b_83e3_476c_aa03_810ed9c1cabe"/>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_d1dcdc6c_1d51_4138_917c_433f442570d3"/>
+        <Class IRI="#OWLClass_a1f4988e_1299_4ba2_aef5_53b02af6bb84"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_edea6fae_5c73_4ef8_b273_6ac2f0ab9e4b"/>
+        <Class IRI="#OWLClass_c536565b_83e3_476c_aa03_810ed9c1cabe"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_0477ae21_e844_4cf0_955c_2a9e923ab215</IRI>
+        <Literal>a logical collection of functions provided by a running computer software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_0477ae21_e844_4cf0_955c_2a9e923ab215</IRI>
+        <Literal xml:lang="en">computer application</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_134448ba_584f_4384_b608_29e481cbfd09</IRI>
+        <Literal xml:lang="en">computer os shell script</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_13e1d334_65bc_4eb1_b343_2a1fa3e6b493</IRI>
+        <Literal xml:lang="en">computer program library</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_2ed6d771_0d88_44c3_8ed6_f9965da6347c</IRI>
+        <Literal xml:lang="en">application</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_360e2933_7bb2_4a61_b297_a9f5ab73e47a</IRI>
+        <Literal>a collection of services provided by a set of computer programs that manage / allocate physical resources of a computer system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_360e2933_7bb2_4a61_b297_a9f5ab73e47a</IRI>
+        <Literal xml:lang="en">computer operating system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_3cecafe4_04a9_4c79_ac73_5408f2644fa0</IRI>
+        <Literal>a composition of computer hardware and software to provide services to users</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_3cecafe4_04a9_4c79_ac73_5408f2644fa0</IRI>
+        <Literal xml:lang="en">computer system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1</IRI>
+        <Literal xml:lang="en">application system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_9b332b07_1ec5_416c_9a93_041d6de84e27</IRI>
+        <Literal xml:lang="en">software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_9cfc36be_d6d2_4952_87ef_ebfc10ec0394</IRI>
+        <Literal xml:lang="en">computer operating system software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_a1f4988e_1299_4ba2_aef5_53b02af6bb84</IRI>
+        <Literal xml:lang="en">computer software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_c536565b_83e3_476c_aa03_810ed9c1cabe</IRI>
+        <Literal xml:lang="en">computer program</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_d1dcdc6c_1d51_4138_917c_433f442570d3</IRI>
+        <Literal xml:lang="en">computer application software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_edea6fae_5c73_4ef8_b273_6ac2f0ab9e4b</IRI>
+        <Literal xml:lang="en">computer source code program</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
