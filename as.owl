@@ -14,7 +14,7 @@
 #    Classes
 #################################################################
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_0477ae21_e844_4cf0_955c_2a9e923ab215
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_0477ae21_e844_4cf0_955c_2a9e923ab215
 :OWLClass_0477ae21_e844_4cf0_955c_2a9e923ab215 rdf:type owl:Class ;
                                                owl:equivalentClass :OWLClass_2ed6d771_0d88_44c3_8ed6_f9965da6347c ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
@@ -22,79 +22,97 @@
                                                rdfs:label "computer application"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_134448ba_584f_4384_b608_29e481cbfd09
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_134448ba_584f_4384_b608_29e481cbfd09
 :OWLClass_134448ba_584f_4384_b608_29e481cbfd09 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_c536565b_83e3_476c_aa03_810ed9c1cabe ;
                                                rdfs:label "computer os shell script"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_13e1d334_65bc_4eb1_b343_2a1fa3e6b493
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_13e1d334_65bc_4eb1_b343_2a1fa3e6b493
 :OWLClass_13e1d334_65bc_4eb1_b343_2a1fa3e6b493 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_c536565b_83e3_476c_aa03_810ed9c1cabe ;
                                                rdfs:label "computer program library"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_2ed6d771_0d88_44c3_8ed6_f9965da6347c
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_2ed6d771_0d88_44c3_8ed6_f9965da6347c
 :OWLClass_2ed6d771_0d88_44c3_8ed6_f9965da6347c rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
                                                rdfs:label "application"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_360e2933_7bb2_4a61_b297_a9f5ab73e47a
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_360e2933_7bb2_4a61_b297_a9f5ab73e47a
 :OWLClass_360e2933_7bb2_4a61_b297_a9f5ab73e47a rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
                                                rdfs:comment "a collection of services provided by a set of computer programs that manage / allocate physical resources of a computer system" ;
                                                rdfs:label "computer operating system"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_3cecafe4_04a9_4c79_ac73_5408f2644fa0
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_3cecafe4_04a9_4c79_ac73_5408f2644fa0
 :OWLClass_3cecafe4_04a9_4c79_ac73_5408f2644fa0 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_7c6e712c_9b9b_4760_b470_d3e6303ff227> ;
                                                rdfs:comment "a composition of computer hardware and software to provide services to users" ;
                                                rdfs:label "computer system"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1
 :OWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_7c6e712c_9b9b_4760_b470_d3e6303ff227> ;
                                                rdfs:label "application system"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_9b332b07_1ec5_416c_9a93_041d6de84e27
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_9b332b07_1ec5_416c_9a93_041d6de84e27
 :OWLClass_9b332b07_1ec5_416c_9a93_041d6de84e27 rdf:type owl:Class ;
                                                owl:equivalentClass :OWLClass_a1f4988e_1299_4ba2_aef5_53b02af6bb84 ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
                                                rdfs:label "software"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_9cfc36be_d6d2_4952_87ef_ebfc10ec0394
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_9cfc36be_d6d2_4952_87ef_ebfc10ec0394
 :OWLClass_9cfc36be_d6d2_4952_87ef_ebfc10ec0394 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_a1f4988e_1299_4ba2_aef5_53b02af6bb84 ;
                                                rdfs:label "computer operating system software"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_a1f4988e_1299_4ba2_aef5_53b02af6bb84
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_a1f4988e_1299_4ba2_aef5_53b02af6bb84
 :OWLClass_a1f4988e_1299_4ba2_aef5_53b02af6bb84 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
                                                rdfs:label "computer software"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_c536565b_83e3_476c_aa03_810ed9c1cabe
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_c536565b_83e3_476c_aa03_810ed9c1cabe
 :OWLClass_c536565b_83e3_476c_aa03_810ed9c1cabe rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
                                                rdfs:label "computer program"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_d1dcdc6c_1d51_4138_917c_433f442570d3
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_d1dcdc6c_1d51_4138_917c_433f442570d3
 :OWLClass_d1dcdc6c_1d51_4138_917c_433f442570d3 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_a1f4988e_1299_4ba2_aef5_53b02af6bb84 ;
                                                rdfs:label "computer application software"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_edea6fae_5c73_4ef8_b273_6ac2f0ab9e4b
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_edea6fae_5c73_4ef8_b273_6ac2f0ab9e4b
 :OWLClass_edea6fae_5c73_4ef8_b273_6ac2f0ab9e4b rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_c536565b_83e3_476c_aa03_810ed9c1cabe ;
                                                rdfs:label "computer source code program"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e
+:OWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_0442c9e7_5661_4019_b059_1857fae0e7c0> ;
+                                               rdfs:label "application system functional role"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_24f86eb2_103e_4ba3_bbc1_da237a604c6b
+:OWLClass_24f86eb2_103e_4ba3_bbc1_da237a604c6b rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_0442c9e7_5661_4019_b059_1857fae0e7c0> ;
+                                               rdfs:label "application functional role"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37
+:OWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_0442c9e7_5661_4019_b059_1857fae0e7c0> ;
+                                               rdfs:label "data repository functional role"@en .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
