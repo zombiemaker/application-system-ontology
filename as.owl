@@ -13,6 +13,10 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal>application system</Literal>
+    </Annotation>
     <Declaration>
         <Class IRI="#OWLClass_0477ae21_e844_4cf0_955c_2a9e923ab215"/>
     </Declaration>
