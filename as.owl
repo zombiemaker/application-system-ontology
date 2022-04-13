@@ -689,8 +689,8 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_edea6fae_5c73_4ef8_b273_6ac2f0ab9e4b
 :OWLClass_edea6fae_5c73_4ef8_b273_6ac2f0ab9e4b rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_c536565b_83e3_476c_aa03_810ed9c1cabe ;
-                                               rdfs:label "computer source code program"@en .
+                                               rdfs:subClassOf :OWLClass_6a956d3a_efb3_434a_bf79_0a11f76d7b52 ;
+                                               rdfs:label "computer program source code"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_ee6a9a20_d308_4a47_a19d_2d3c1fd54b08
@@ -750,12 +750,25 @@
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_07c47fcb_4da7_4356_a9c9_c99bfc494b5a
 :OWLClass_07c47fcb_4da7_4356_a9c9_c99bfc494b5a rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:comment "a programming paradigm is the way a problem is modelled (imperative or declarative, object oriented, functional, logic,...)" ;
                                                rdfs:label "computer programming paradigm"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_142ef695_169a_46f8_988a_8052f8661a29
+:OWLClass_142ef695_169a_46f8_988a_8052f8661a29 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d0106981_031b_4e92_8efb_69081630a844 ;
+                                               rdfs:label "von neumann machine architecture"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_1615086f_bc21_4403_b453_1089e2be784c
+:OWLClass_1615086f_bc21_4403_b453_1089e2be784c rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "computer programming model"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_2222e105_b946_483f_9d8f_f378e3892e4b
 :OWLClass_2222e105_b946_483f_9d8f_f378e3892e4b rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_07c47fcb_4da7_4356_a9c9_c99bfc494b5a ;
+                                               rdfs:subClassOf :OWLClass_ee5cea14_18e6_4bc3_a8ae_a19eb845c038 ;
                                                rdfs:label "object-oriented programming"@en .
 
 
@@ -765,10 +778,34 @@
                                                rdfs:label "erlang programming language"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_22ff53ab_9c3f_46fb_9292_2221ff929582
+:OWLClass_22ff53ab_9c3f_46fb_9292_2221ff929582 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_07c47fcb_4da7_4356_a9c9_c99bfc494b5a ;
+                                               rdfs:label "communicative programming"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_29d3ea73_76c0_4dd9_876d_b04bc5bc5628
 :OWLClass_29d3ea73_76c0_4dd9_876d_b04bc5bc5628 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_07c47fcb_4da7_4356_a9c9_c99bfc494b5a ;
+                                               rdfs:subClassOf :OWLClass_22ff53ab_9c3f_46fb_9292_2221ff929582 ;
                                                rdfs:label "actor model programming"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_352a28f0_ea42_46df_96fb_5ebd7e30f60f
+:OWLClass_352a28f0_ea42_46df_96fb_5ebd7e30f60f rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_6a956d3a_efb3_434a_bf79_0a11f76d7b52 ;
+                                               rdfs:label "computer program bytecode"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_48b934d9_a857_46ef_b4ea_18ca2381ce73
+:OWLClass_48b934d9_a857_46ef_b4ea_18ca2381ce73 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d0106981_031b_4e92_8efb_69081630a844 ;
+                                               rdfs:label "stack machine architecture"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_5164081e_37a7_4729_a824_cbdb0c407e8a
+:OWLClass_5164081e_37a7_4729_a824_cbdb0c407e8a rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_6a956d3a_efb3_434a_bf79_0a11f76d7b52 ;
+                                               rdfs:label "computer program object code"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_611a05bb_6749_48fb_b112_0f6c71e7b535
@@ -777,10 +814,52 @@
                                                rdfs:label "scala programming language"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_6a956d3a_efb3_434a_bf79_0a11f76d7b52
+:OWLClass_6a956d3a_efb3_434a_bf79_0a11f76d7b52 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "computer program code"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_77e2b562_eb48_468f_9602_18c39b3d988d
+:OWLClass_77e2b562_eb48_468f_9602_18c39b3d988d rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_6a956d3a_efb3_434a_bf79_0a11f76d7b52 ;
+                                               rdfs:label "computer program assembly code"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_823e380c_b8ec_4ba4_8e5f_f14abc430975
+:OWLClass_823e380c_b8ec_4ba4_8e5f_f14abc430975 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_6a956d3a_efb3_434a_bf79_0a11f76d7b52 ;
+                                               rdfs:label "computer program machine code"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_866f5b05_6bda_4ed0_9016_077f61239e1b
+:OWLClass_866f5b05_6bda_4ed0_9016_077f61239e1b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_cfcbc03f_081d_4c16_93f6_c0fa96e628ec ;
+                                               rdfs:label "mathematical programming"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_9e2eda3f_908f_4bf9_b2d6_42a90f905110
+:OWLClass_9e2eda3f_908f_4bf9_b2d6_42a90f905110 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d0106981_031b_4e92_8efb_69081630a844 ;
+                                               rdfs:label "havard machine architecture"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_9f22fbc6_c067_4b74_b073_74c1e7b9115a
+:OWLClass_9f22fbc6_c067_4b74_b073_74c1e7b9115a rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_cfcbc03f_081d_4c16_93f6_c0fa96e628ec ;
+                                               rdfs:label "logic programming"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_a5462c9b_1d3a_4bbe_a443_88d49b619e3b
 :OWLClass_a5462c9b_1d3a_4bbe_a443_88d49b619e3b rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_07c47fcb_4da7_4356_a9c9_c99bfc494b5a ;
+                                               rdfs:subClassOf :OWLClass_ee5cea14_18e6_4bc3_a8ae_a19eb845c038 ;
                                                rdfs:label "procedural programming"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_a6bedd1b_576c_4fb2_b2ad_070b2dd40373
+:OWLClass_a6bedd1b_576c_4fb2_b2ad_070b2dd40373 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_6a956d3a_efb3_434a_bf79_0a11f76d7b52 ;
+                                               rdfs:label "computer program microcode"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_ac11df79_7f9b_4aac_aec0_22e6a73cce0f
@@ -795,15 +874,39 @@
                                                rdfs:label "smalltalk programming language"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_cfcbc03f_081d_4c16_93f6_c0fa96e628ec
+:OWLClass_cfcbc03f_081d_4c16_93f6_c0fa96e628ec rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_07c47fcb_4da7_4356_a9c9_c99bfc494b5a ;
+                                               rdfs:label "declarative programming"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_d0106981_031b_4e92_8efb_69081630a844
+:OWLClass_d0106981_031b_4e92_8efb_69081630a844 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "computer system architecture"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_d64b8f40_5ec4_4b5d_8c78_2139e32f9f4b
 :OWLClass_d64b8f40_5ec4_4b5d_8c78_2139e32f9f4b rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_07c47fcb_4da7_4356_a9c9_c99bfc494b5a ;
+                                               rdfs:subClassOf :OWLClass_cfcbc03f_081d_4c16_93f6_c0fa96e628ec ;
                                                rdfs:label "functional programming"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_ee5cea14_18e6_4bc3_a8ae_a19eb845c038
+:OWLClass_ee5cea14_18e6_4bc3_a8ae_a19eb845c038 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_07c47fcb_4da7_4356_a9c9_c99bfc494b5a ;
+                                               rdfs:label "imperative programming"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_ee9318dc_65c0_4e26_9f28_6be23d5aae3c
+:OWLClass_ee9318dc_65c0_4e26_9f28_6be23d5aae3c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d0106981_031b_4e92_8efb_69081630a844 ;
+                                               rdfs:label "register machine architecture"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_f462412e_bf1c_41bd_90a6_3b60b954bfb8
 :OWLClass_f462412e_bf1c_41bd_90a6_3b60b954bfb8 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_07c47fcb_4da7_4356_a9c9_c99bfc494b5a ;
+                                               rdfs:subClassOf :OWLClass_cfcbc03f_081d_4c16_93f6_c0fa96e628ec ;
                                                rdfs:label "reactive programming"@en .
 
 
