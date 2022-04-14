@@ -1656,6 +1656,24 @@
                                                                                                                                                      rdfs:label "atm protocol"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_aa6660fd_ef83_4b1d_876a_cdf332fb45a8
+:OWLClass_aa6660fd_ef83_4b1d_876a_cdf332fb45a8 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_3cecafe4_04a9_4c79_ac73_5408f2644fa0> ;
+                                               rdfs:label "physical computer system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_ca58e05b_531f_48ad_a8ef_e265ed1d3149
+:OWLClass_ca58e05b_531f_48ad_a8ef_e265ed1d3149 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_7c6e712c_9b9b_4760_b470_d3e6303ff227> ;
+                                               rdfs:label "computer cluster system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78
+:OWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_3cecafe4_04a9_4c79_ac73_5408f2644fa0> ;
+                                               rdfs:label "virtual computer system"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_81704898_3484_47f6_9444_3aefe7aa7301
 <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_81704898_3484_47f6_9444_3aefe7aa7301> rdf:type owl:Class .
 
