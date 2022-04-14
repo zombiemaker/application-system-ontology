@@ -18,12 +18,12 @@
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439
 :OWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439 rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf owl:topObjectProperty ;
-                                                        rdfs:label "application system property"@en .
+                                                        rdfs:label "application system object property"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_75782c59_0646_483e_ad1b_37df2c9b33ef
 :OWLObjectProperty_75782c59_0646_483e_ad1b_37df2c9b33ef rdf:type owl:ObjectProperty ;
-                                                        rdfs:label "software package property"@en .
+                                                        rdfs:label "software package object property"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_dc0399b7_58c3_44c1_b4d1_e6a1a8826208
@@ -33,6 +33,29 @@
                                                         rdfs:domain <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
                                                         rdfs:range <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
                                                         rdfs:label "application system-to-application system"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLDataProperty_22b28fca_8429_4420_9bba_ed00a21fcf38
+:OWLDataProperty_22b28fca_8429_4420_9bba_ed00a21fcf38 rdf:type owl:DatatypeProperty ;
+                                                      rdfs:subPropertyOf :OWLDataProperty_fea2859f_02df_4586_a704_d1f5aa471202 ;
+                                                      rdfs:label "application system change management role"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLDataProperty_ca84fec9_98ca_4bf5_b044_98de2f555b88
+:OWLDataProperty_ca84fec9_98ca_4bf5_b044_98de2f555b88 rdf:type owl:DatatypeProperty ;
+                                                      rdfs:subPropertyOf :OWLDataProperty_fea2859f_02df_4586_a704_d1f5aa471202 ;
+                                                      rdfs:domain <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                      rdfs:range xsd:string ;
+                                                      rdfs:label "application system name"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLDataProperty_fea2859f_02df_4586_a704_d1f5aa471202
+:OWLDataProperty_fea2859f_02df_4586_a704_d1f5aa471202 rdf:type owl:DatatypeProperty ;
+                                                      rdfs:label "application system data property"@en .
 
 
 #################################################################
@@ -1631,6 +1654,12 @@
                                                                                                                                                      rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_c9bd890b_25c9_4407_b809_31d79fd2e958> ;
                                                                                                                                                      rdfs:comment "asynchronous transfer mode protocol" ;
                                                                                                                                                      rdfs:label "atm protocol"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_3c08dce0_c0d2_4d3c_acda_22d4af85755e
+:OWLClass_3c08dce0_c0d2_4d3c_acda_22d4af85755e rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_0442c9e7_5661_4019_b059_1857fae0e7c0> ;
+                                               rdfs:label "it change management role"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_81704898_3484_47f6_9444_3aefe7aa7301
