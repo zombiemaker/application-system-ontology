@@ -12,6 +12,30 @@
                                                                                                          rdfs:label "application system" .
 
 #################################################################
+#    Object Properties
+#################################################################
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439
+:OWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:label "application system property"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_75782c59_0646_483e_ad1b_37df2c9b33ef
+:OWLObjectProperty_75782c59_0646_483e_ad1b_37df2c9b33ef rdf:type owl:ObjectProperty ;
+                                                        rdfs:label "software package property"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_dc0399b7_58c3_44c1_b4d1_e6a1a8826208
+:OWLObjectProperty_dc0399b7_58c3_44c1_b4d1_e6a1a8826208 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439 ;
+                                                        rdf:type owl:SymmetricProperty ;
+                                                        rdfs:domain <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                        rdfs:range <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                        rdfs:label "application system-to-application system"@en .
+
+
+#################################################################
 #    Classes
 #################################################################
 
