@@ -1453,10 +1453,22 @@
                                                rdfs:label "atm protocol"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_1d4cab46_b723_428f_984b_d37bd8bd5380
+:OWLClass_1d4cab46_b723_428f_984b_d37bd8bd5380 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_332c872e_9f5d_43c1_b2b9_19dbaba6fc1b> ;
+                                               rdfs:label "category of application system component"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_25b517e1_5faa_4963_b88e_ea63c10cffb6
 :OWLClass_25b517e1_5faa_4963_b88e_ea63c10cffb6 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_3749d5f7_fd28_46d7_be80_caaa8a0ed8a3 ;
                                                rdfs:label "microcode language"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_3f927c43_27ab_4b14_ac70_8f2d21f939f4
+:OWLClass_3f927c43_27ab_4b14_ac70_8f2d21f939f4 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_332c872e_9f5d_43c1_b2b9_19dbaba6fc1b> ;
+                                               rdfs:label "category of application component"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_627a06ad_4fba_4f61_8899_05096541c18b
@@ -1495,6 +1507,12 @@
                                                rdfs:label "application user interaction flow controller"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_baf55df2_8df4_4b5f_bbdf_309b70bc2162
+:OWLClass_baf55df2_8df4_4b5f_bbdf_309b70bc2162 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_332c872e_9f5d_43c1_b2b9_19dbaba6fc1b> ;
+                                               rdfs:label "category of application"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_c269cb81_46c9_4613_b8e0_54e6ac24b58c
 :OWLClass_c269cb81_46c9_4613_b8e0_54e6ac24b58c rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_3749d5f7_fd28_46d7_be80_caaa8a0ed8a3 ;
@@ -1511,6 +1529,12 @@
 :OWLClass_df79f23e_ea94_4516_b0b9_4dedfce03288 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_cc21115b_d4c5_4cc9_9e0d_fb649492f859 ;
                                                rdfs:label "application user domain data model"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl#OWLClass_ee705fb4_c6c5_4194_8a29_d362acde984b
+:OWLClass_ee705fb4_c6c5_4194_8a29_d362acde984b rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_332c872e_9f5d_43c1_b2b9_19dbaba6fc1b> ;
+                                               rdfs:label "category of application system"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_81704898_3484_47f6_9444_3aefe7aa7301
