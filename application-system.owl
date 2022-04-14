@@ -1656,12 +1656,6 @@
                                                                                                                                                      rdfs:label "atm protocol"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_3c08dce0_c0d2_4d3c_acda_22d4af85755e
-:OWLClass_3c08dce0_c0d2_4d3c_acda_22d4af85755e rdf:type owl:Class ;
-                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_0442c9e7_5661_4019_b059_1857fae0e7c0> ;
-                                               rdfs:label "it change management role"@en .
-
-
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_81704898_3484_47f6_9444_3aefe7aa7301
 <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_81704898_3484_47f6_9444_3aefe7aa7301> rdf:type owl:Class .
 
