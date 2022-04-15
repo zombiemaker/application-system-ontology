@@ -42,6 +42,22 @@
                                                         rdfs:label "provides api"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_c64f9f33_728d_4258_9f97_830cecf46ec5
+:OWLObjectProperty_c64f9f33_728d_4258_9f97_830cecf46ec5 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439 ;
+                                                        rdfs:domain <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                        rdfs:range <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                        rdfs:label "fill application system functional role"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_f9227b02_a974_4b83_a286_894dd6c4f5ba
+:OWLObjectProperty_f9227b02_a974_4b83_a286_894dd6c4f5ba rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439 ;
+                                                        rdfs:domain <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                        rdfs:range <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_60b2743c_ebdb_47a9_b371_85a749f86594> ;
+                                                        rdfs:label "calls api"@en .
+
+
 #################################################################
 #    Data properties
 #################################################################
