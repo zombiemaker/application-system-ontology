@@ -43,11 +43,34 @@
                                                         rdfs:label "provides api"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_0adcaab1_438a_4512_b3ee_3aefdf133b1b
+:OWLObjectProperty_0adcaab1_438a_4512_b3ee_3aefdf133b1b rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_94ea0b6a_363e_4a88_b5d8_0e0e149d4b1e ;
+                                                        rdfs:comment "what the data means" ;
+                                                        rdfs:label "data semantic"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_2ce2154a_00a9_45b2_b6de_e5ac57ccc582
 :OWLObjectProperty_2ce2154a_00a9_45b2_b6de_e5ac57ccc582 rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf :OWLObjectProperty_da096e2e_3018_4ead_baa9_1afd367ba171 ;
                                                         rdfs:domain :OWLClass_abdcfd50_5282_416c_a45e_390ddab2e125 ;
                                                         rdfs:label "application system api http content type"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_47e31739_f7d2_4b9f_8fe9_60635c2104f4
+:OWLObjectProperty_47e31739_f7d2_4b9f_8fe9_60635c2104f4 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_da096e2e_3018_4ead_baa9_1afd367ba171 ;
+                                                        rdfs:domain :OWLClass_abdcfd50_5282_416c_a45e_390ddab2e125 ;
+                                                        rdfs:comment "data that the api can send to a client" ;
+                                                        rdfs:label "application system api data sendable"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_552d7360_34c3_4ee1_a28b_b79e948b2a1a
+:OWLObjectProperty_552d7360_34c3_4ee1_a28b_b79e948b2a1a rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_da096e2e_3018_4ead_baa9_1afd367ba171 ;
+                                                        rdfs:domain :OWLClass_abdcfd50_5282_416c_a45e_390ddab2e125 ;
+                                                        rdfs:comment "data that the api can receive from a client" ;
+                                                        rdfs:label "application system api data receivable"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_7c72a33c_e551_41d3_bcdd_e26d284946f1
@@ -70,6 +93,11 @@
                                                         rdfs:domain :OWLClass_abdcfd50_5282_416c_a45e_390ddab2e125 ;
                                                         rdfs:range <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_56ac702d_cf50_4a1d_8190_22f088aa1997> ;
                                                         rdfs:label "application system api layer 5 protocol"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_94ea0b6a_363e_4a88_b5d8_0e0e149d4b1e
+:OWLObjectProperty_94ea0b6a_363e_4a88_b5d8_0e0e149d4b1e rdf:type owl:ObjectProperty ;
+                                                        rdfs:label "data object property"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_a6875765_7b7c_4ebb_9269_f611bf931f98
@@ -107,6 +135,15 @@
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_da096e2e_3018_4ead_baa9_1afd367ba171
 :OWLObjectProperty_da096e2e_3018_4ead_baa9_1afd367ba171 rdf:type owl:ObjectProperty ;
                                                         rdfs:label "application system api object property"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_dc3c1c99_244a_4560_be91_9982b1909da4
+:OWLObjectProperty_dc3c1c99_244a_4560_be91_9982b1909da4 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_94ea0b6a_363e_4a88_b5d8_0e0e149d4b1e ;
+                                                        rdfs:domain :OWLClass_7e877799_2fe2_4fb4_ada9_033daa8453b1 ;
+                                                        rdfs:range <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_d83c06c0_7688_4e24_ba2d_cc7286942838> ;
+                                                        rdfs:comment "how is the data structured" ;
+                                                        rdfs:label "data format"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_f16216d0_69dc_448b_83b7_b2022e1c662b
@@ -1912,6 +1949,12 @@
                                                rdfs:label "application system odata api"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_7e877799_2fe2_4fb4_ada9_033daa8453b1
+:OWLClass_7e877799_2fe2_4fb4_ada9_033daa8453b1 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "data"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_8335b22a_1c8a_478e_b476_b37cbdf184b6
 :OWLClass_8335b22a_1c8a_478e_b476_b37cbdf184b6 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_60b2743c_ebdb_47a9_b371_85a749f86594> ;
@@ -1952,6 +1995,18 @@
 :OWLClass_b6f58b7d_4c3c_4dfb_a23b_0f0dd6dc81a6 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_2832d278_eadb_427b_855f_e0551f5de87e ;
                                                rdfs:label "application system graphical user interface"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_c72db63e_5adc_4290_8f24_fda96bcfc197
+:OWLClass_c72db63e_5adc_4290_8f24_fda96bcfc197 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_cdfc0fed_be47_45e4_8d6d_5f164972879f> ;
+                                               rdfs:label "yaml data format"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_da668cc5_3095_4b93_975b_94f2f1dd93b0
+:OWLClass_da668cc5_3095_4b93_975b_94f2f1dd93b0 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "text character encoding"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl#OWLClass_81704898_3484_47f6_9444_3aefe7aa7301
