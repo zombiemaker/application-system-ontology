@@ -36,11 +36,12 @@
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLObjectProperty_dc0399b7_58c3_44c1_b4d1_e6a1a8826208
 :OWLObjectProperty_dc0399b7_58c3_44c1_b4d1_e6a1a8826208 rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf :OWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439 ;
+                                                        owl:inverseOf :OWLObjectProperty_c2bb509b_b288_4e0b_ba9f_054cf3add3c4 ;
                                                         rdf:type owl:SymmetricProperty ;
                                                         rdfs:domain <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
                                                         rdfs:range <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_60b2743c_ebdb_47a9_b371_85a749f86594> ,
                                                                    :OWLClass_abdcfd50_5282_416c_a45e_390ddab2e125 ;
-                                                        rdfs:label "provides api"@en .
+                                                        rdfs:label "application system provides api"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_0adcaab1_438a_4512_b3ee_3aefdf133b1b
@@ -122,6 +123,15 @@
                                                         rdfs:domain :OWLClass_abdcfd50_5282_416c_a45e_390ddab2e125 ;
                                                         rdfs:range <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_d14e5b00_e10b_4e49_923e_5d123a206815> ;
                                                         rdfs:label "application system api layer 6 protocol"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_c2bb509b_b288_4e0b_ba9f_054cf3add3c4
+:OWLObjectProperty_c2bb509b_b288_4e0b_ba9f_054cf3add3c4 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_da096e2e_3018_4ead_baa9_1afd367ba171 ;
+                                                        rdfs:domain <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_60b2743c_ebdb_47a9_b371_85a749f86594> ,
+                                                                    :OWLClass_abdcfd50_5282_416c_a45e_390ddab2e125 ;
+                                                        rdfs:range <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                        rdfs:label "application system api provided by"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_c64f9f33_728d_4258_9f97_830cecf46ec5
