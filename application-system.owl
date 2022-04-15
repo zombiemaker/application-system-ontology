@@ -15,25 +15,25 @@
 #    Object Properties
 #################################################################
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439
 :OWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439 rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf owl:topObjectProperty ;
                                                         rdfs:label "application system object property"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_75782c59_0646_483e_ad1b_37df2c9b33ef
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLObjectProperty_75782c59_0646_483e_ad1b_37df2c9b33ef
 :OWLObjectProperty_75782c59_0646_483e_ad1b_37df2c9b33ef rdf:type owl:ObjectProperty ;
                                                         rdfs:label "software package object property"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_7d1adba1_4339_446b_abb8_80e2844efea0
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLObjectProperty_7d1adba1_4339_446b_abb8_80e2844efea0
 :OWLObjectProperty_7d1adba1_4339_446b_abb8_80e2844efea0 rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf :OWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439 ;
                                                         rdfs:domain <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
-                                                        rdfs:label "application system change management role"@en .
+                                                        rdfs:label "fills application system change management role"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_dc0399b7_58c3_44c1_b4d1_e6a1a8826208
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLObjectProperty_dc0399b7_58c3_44c1_b4d1_e6a1a8826208
 :OWLObjectProperty_dc0399b7_58c3_44c1_b4d1_e6a1a8826208 rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf :OWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439 ;
                                                         rdf:type owl:SymmetricProperty ;
@@ -46,7 +46,7 @@
 #    Data properties
 #################################################################
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLDataProperty_ca84fec9_98ca_4bf5_b044_98de2f555b88
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLDataProperty_ca84fec9_98ca_4bf5_b044_98de2f555b88
 :OWLDataProperty_ca84fec9_98ca_4bf5_b044_98de2f555b88 rdf:type owl:DatatypeProperty ;
                                                       rdfs:subPropertyOf :OWLDataProperty_fea2859f_02df_4586_a704_d1f5aa471202 ;
                                                       rdfs:domain <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
@@ -54,7 +54,7 @@
                                                       rdfs:label "application system name"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLDataProperty_fea2859f_02df_4586_a704_d1f5aa471202
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLDataProperty_fea2859f_02df_4586_a704_d1f5aa471202
 :OWLDataProperty_fea2859f_02df_4586_a704_d1f5aa471202 rdf:type owl:DatatypeProperty ;
                                                       rdfs:label "application system data property"@en .
 
@@ -1656,98 +1656,98 @@
                                                                                                                                                      rdfs:label "atm protocol"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_0c67b3e0_00c3_42c6_8d80_ac1f94ebde06
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_0c67b3e0_00c3_42c6_8d80_ac1f94ebde06
 :OWLClass_0c67b3e0_00c3_42c6_8d80_ac1f94ebde06 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_2893c68c_a708_41c1_936f_a24a45e9d982> ;
                                                rdfs:label "datastore functional role"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_0f79eb3f_ddd9_4656_9810_08ce8e3e1d5a
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_0f79eb3f_ddd9_4656_9810_08ce8e3e1d5a
 :OWLClass_0f79eb3f_ddd9_4656_9810_08ce8e3e1d5a rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37> ;
                                                rdfs:label "graph database functional role"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_1ae56589_6392_46d1_b3d0_1f1a2588db15
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_1ae56589_6392_46d1_b3d0_1f1a2588db15
 :OWLClass_1ae56589_6392_46d1_b3d0_1f1a2588db15 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37> ;
                                                rdfs:label "time series database functional role"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_229c0e7e_7b79_4f6d_bcad_d916bb8972e2
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_229c0e7e_7b79_4f6d_bcad_d916bb8972e2
 :OWLClass_229c0e7e_7b79_4f6d_bcad_d916bb8972e2 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_0c67b3e0_00c3_42c6_8d80_ac1f94ebde06 ;
                                                rdfs:label "object datastore functional role"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_33b24f7d_781a_4156_b08d_59298cf9320a
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_33b24f7d_781a_4156_b08d_59298cf9320a
 :OWLClass_33b24f7d_781a_4156_b08d_59298cf9320a rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_0f79eb3f_ddd9_4656_9810_08ce8e3e1d5a ;
                                                rdfs:label "property graph database functional role"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_3758820c_1cc0_40a5_ab3e_966be034ed8d
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_3758820c_1cc0_40a5_ab3e_966be034ed8d
 :OWLClass_3758820c_1cc0_40a5_ab3e_966be034ed8d rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_0f79eb3f_ddd9_4656_9810_08ce8e3e1d5a ;
                                                rdfs:label "rdf graph triple store functional role"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_54f95e30_d30a_4836_96d3_2bfb6ae2c7a1
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_54f95e30_d30a_4836_96d3_2bfb6ae2c7a1
 :OWLClass_54f95e30_d30a_4836_96d3_2bfb6ae2c7a1 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37> ;
                                                rdfs:label "columnar database functional role"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_8d3e7804_cd3d_496f_b68f_5d501f01fa3d
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_8d3e7804_cd3d_496f_b68f_5d501f01fa3d
 :OWLClass_8d3e7804_cd3d_496f_b68f_5d501f01fa3d rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37> ;
                                                rdfs:label "document database functional role"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_aa6660fd_ef83_4b1d_876a_cdf332fb45a8
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_aa6660fd_ef83_4b1d_876a_cdf332fb45a8
 :OWLClass_aa6660fd_ef83_4b1d_876a_cdf332fb45a8 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_3cecafe4_04a9_4c79_ac73_5408f2644fa0> ;
                                                rdfs:label "physical computer system"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_ad4ee093_8ce7_4752_a447_b480752a3b1e
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_ad4ee093_8ce7_4752_a447_b480752a3b1e
 :OWLClass_ad4ee093_8ce7_4752_a447_b480752a3b1e rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_2893c68c_a708_41c1_936f_a24a45e9d982> ;
                                                rdfs:comment "a functional role of an application system component" ;
                                                rdfs:label "application system component functional role"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_b816c6bb_b91a_4490_9e5e_607717f2198a
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_b816c6bb_b91a_4490_9e5e_607717f2198a
 :OWLClass_b816c6bb_b91a_4490_9e5e_607717f2198a rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_0c67b3e0_00c3_42c6_8d80_ac1f94ebde06 ;
                                                rdfs:label "data repository functional role"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_ca58e05b_531f_48ad_a8ef_e265ed1d3149
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_ca58e05b_531f_48ad_a8ef_e265ed1d3149
 :OWLClass_ca58e05b_531f_48ad_a8ef_e265ed1d3149 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_7c6e712c_9b9b_4760_b470_d3e6303ff227> ;
                                                rdfs:label "computer cluster system"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_ccfd26f1_f45f_4d8b_837f_2dcd01142434
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_ccfd26f1_f45f_4d8b_837f_2dcd01142434
 :OWLClass_ccfd26f1_f45f_4d8b_837f_2dcd01142434 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_0c67b3e0_00c3_42c6_8d80_ac1f94ebde06 ;
                                                rdfs:label "computer file functional role"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_d905f5bb_1d88_4f8b_aa8c_ba1e1a56a797
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_d905f5bb_1d88_4f8b_aa8c_ba1e1a56a797
 :OWLClass_d905f5bb_1d88_4f8b_aa8c_ba1e1a56a797 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37> ;
                                                rdfs:label "key-value database functional role"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_df6b56d6_f009_4ac5_9db5_349e393f5267
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_df6b56d6_f009_4ac5_9db5_349e393f5267
 :OWLClass_df6b56d6_f009_4ac5_9db5_349e393f5267 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37> ;
                                                rdfs:label "relational database functional role"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78
 :OWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_3cecafe4_04a9_4c79_ac73_5408f2644fa0> ;
                                                rdfs:label "virtual computer system"@en .
