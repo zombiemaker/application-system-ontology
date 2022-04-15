@@ -1864,6 +1864,18 @@
                                                rdfs:label "virtual computer system"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_1f9e34b9_2a30_44a0_992e_a32690b53eab
+:OWLClass_1f9e34b9_2a30_44a0_992e_a32690b53eab rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_215ea073_6370_4fcf_befc_09f9e0007d19 ;
+                                               rdfs:label "application system mqtt api"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_2125d0e8_8891_459d_bb8d_e6ded233f933
+:OWLClass_2125d0e8_8891_459d_bb8d_e6ded233f933 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_215ea073_6370_4fcf_befc_09f9e0007d19 ;
+                                               rdfs:label "application system stomp api"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_215ea073_6370_4fcf_befc_09f9e0007d19
 :OWLClass_215ea073_6370_4fcf_befc_09f9e0007d19 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_abdcfd50_5282_416c_a45e_390ddab2e125 ;
@@ -1874,6 +1886,12 @@
 :OWLClass_2832d278_eadb_427b_855f_e0551f5de87e rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_b32e8785_962a_4f8c_980a_ca9810f9f04a ;
                                                rdfs:label "application system user interface"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_45e98942_2e00_4927_81e5_606de59ddf1e
+:OWLClass_45e98942_2e00_4927_81e5_606de59ddf1e rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_215ea073_6370_4fcf_befc_09f9e0007d19 ;
+                                               rdfs:label "application system websocket api"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_49036d3d_e187_4b65_b9d7_f448a90e2f2a
@@ -1888,10 +1906,28 @@
                                                rdfs:label "application system command line interface"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_7d77bbf0_e180_4722_8626_25d24f264ea6
+:OWLClass_7d77bbf0_e180_4722_8626_25d24f264ea6 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_215ea073_6370_4fcf_befc_09f9e0007d19 ;
+                                               rdfs:label "application system odata api"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_8335b22a_1c8a_478e_b476_b37cbdf184b6
 :OWLClass_8335b22a_1c8a_478e_b476_b37cbdf184b6 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_60b2743c_ebdb_47a9_b371_85a749f86594> ;
                                                rdfs:label "application remote api"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_8a73a10a_7269_4512_b3c2_4bcf468c6478
+:OWLClass_8a73a10a_7269_4512_b3c2_4bcf468c6478 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_215ea073_6370_4fcf_befc_09f9e0007d19 ;
+                                               rdfs:label "application system amqp api"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_93c0f8d2_78fa_4d29_8454_343760e8803b
+:OWLClass_93c0f8d2_78fa_4d29_8454_343760e8803b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_215ea073_6370_4fcf_befc_09f9e0007d19 ;
+                                               rdfs:label "application system sparql api"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_abdcfd50_5282_416c_a45e_390ddab2e125
