@@ -172,7 +172,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_f0656977_b873_4661_bcc4_e8a14c70abf8
 :OWLObjectProperty_f0656977_b873_4661_bcc4_e8a14c70abf8 rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf :OWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439 ;
-                                                        rdfs:label "application system provides data stream"@en .
+                                                        rdfs:label "application system produces data stream"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_f16216d0_69dc_448b_83b7_b2022e1c662b
