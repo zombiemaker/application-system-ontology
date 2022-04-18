@@ -22,6 +22,12 @@
                                                         rdfs:label "data semantic"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_2358e33d_ae50_4987_9699_80d55b6c9bc7
+:OWLObjectProperty_2358e33d_ae50_4987_9699_80d55b6c9bc7 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439 ;
+                                                        rdfs:label "application system consumes data stream"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_2ce2154a_00a9_45b2_b6de_e5ac57ccc582
 :OWLObjectProperty_2ce2154a_00a9_45b2_b6de_e5ac57ccc582 rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf :OWLObjectProperty_da096e2e_3018_4ead_baa9_1afd367ba171 ;
@@ -154,6 +160,12 @@
                                                         rdfs:range :OWLClass_d83c06c0_7688_4e24_ba2d_cc7286942838 ;
                                                         rdfs:comment "how is the data structured" ;
                                                         rdfs:label "data format"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_f0656977_b873_4661_bcc4_e8a14c70abf8
+:OWLObjectProperty_f0656977_b873_4661_bcc4_e8a14c70abf8 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439 ;
+                                                        rdfs:label "application system provides data stream"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_f16216d0_69dc_448b_83b7_b2022e1c662b
