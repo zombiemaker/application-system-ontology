@@ -66,7 +66,7 @@
 :OWLObjectProperty_7d1adba1_4339_446b_abb8_80e2844efea0 rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf :OWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439 ;
                                                         rdfs:domain :OWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1 ;
-                                                        rdfs:label "fills application system change management role"@en .
+                                                        rdfs:label "application system fulfills change management role"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_8a1460b3_b424_46ab_b5f5_13c28a15cd56
@@ -129,7 +129,7 @@
                                                         rdfs:subPropertyOf :OWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439 ;
                                                         rdfs:domain :OWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1 ;
                                                         rdfs:range :OWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e ;
-                                                        rdfs:label "fill application system functional role"@en .
+                                                        rdfs:label "application system fulfills functional role"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_da096e2e_3018_4ead_baa9_1afd367ba171
@@ -168,7 +168,7 @@
                                                         rdfs:domain :OWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1 ;
                                                         rdfs:range :OWLClass_60b2743c_ebdb_47a9_b371_85a749f86594 ,
                                                                    :OWLClass_abdcfd50_5282_416c_a45e_390ddab2e125 ;
-                                                        rdfs:label "calls api"@en .
+                                                        rdfs:label "application system calls api"@en .
 
 
 #################################################################
