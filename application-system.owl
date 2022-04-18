@@ -46,6 +46,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439
 :OWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439 rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:domain :OWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1 ;
                                                         rdfs:label "application system object property"@en .
 
 
@@ -59,6 +60,8 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_75782c59_0646_483e_ad1b_37df2c9b33ef
 :OWLObjectProperty_75782c59_0646_483e_ad1b_37df2c9b33ef rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:domain :OWLClass_7a3a3167_df0e_432f_864c_4e313407006b ;
                                                         rdfs:label "software package object property"@en .
 
 
@@ -93,6 +96,8 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_94ea0b6a_363e_4a88_b5d8_0e0e149d4b1e
 :OWLObjectProperty_94ea0b6a_363e_4a88_b5d8_0e0e149d4b1e rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:domain :OWLClass_7e877799_2fe2_4fb4_ada9_033daa8453b1 ;
                                                         rdfs:label "data object property"@en .
 
 
@@ -140,6 +145,8 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLObjectProperty_da096e2e_3018_4ead_baa9_1afd367ba171
 :OWLObjectProperty_da096e2e_3018_4ead_baa9_1afd367ba171 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:domain :OWLClass_b32e8785_962a_4f8c_980a_ca9810f9f04a ;
                                                         rdfs:label "application system api object property"@en .
 
 
