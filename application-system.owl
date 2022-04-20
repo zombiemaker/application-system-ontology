@@ -273,6 +273,12 @@
                                                rdfs:label "application system devops engineer"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_05fc0b03_d427_4c1b_ae18_ee968b2e2595
+:OWLClass_05fc0b03_d427_4c1b_ae18_ee968b2e2595 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_55d74cc8_ed9e_412d_a43a_ea444532f3a5 ;
+                                               rdfs:label "npm package repository"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_066a52d9_d1ef_4c25_8d7b_4bd1f5b81fa7
 :OWLClass_066a52d9_d1ef_4c25_8d7b_4bd1f5b81fa7 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_332c872e_9f5d_43c1_b2b9_19dbaba6fc1b> ;
@@ -314,7 +320,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_0c12112b_f56c_44a8_a60b_68c335f50eeb
 :OWLClass_0c12112b_f56c_44a8_a60b_68c335f50eeb rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_7a3a3167_df0e_432f_864c_4e313407006b ;
-                                               rdfs:label "software deployment package"@en .
+                                               rdfs:label "os software installation package"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_0c2e396c_20cc_4d61_a439_ce0fb50ad5f7
@@ -357,6 +363,12 @@
 :OWLClass_0f79eb3f_ddd9_4656_9810_08ce8e3e1d5a rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37 ;
                                                rdfs:label "graph database functional role"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_10fb7f2a_1462_4805_8cc9_f07f8205d89c
+:OWLClass_10fb7f2a_1462_4805_8cc9_f07f8205d89c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_55d74cc8_ed9e_412d_a43a_ea444532f3a5 ;
+                                               rdfs:label "nuget package repository"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_116a0fd7_ed09_4575_924d_6771c0a4cda9
@@ -440,6 +452,12 @@
                                                rdfs:label "igmp protocol"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_1adc9c16_0743_47ef_94ae_0668c996bed3
+:OWLClass_1adc9c16_0743_47ef_94ae_0668c996bed3 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_0c12112b_f56c_44a8_a60b_68c335f50eeb ;
+                                               rdfs:label "rpm package"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_1ae56589_6392_46d1_b3d0_1f1a2588db15
 :OWLClass_1ae56589_6392_46d1_b3d0_1f1a2588db15 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37 ;
@@ -456,6 +474,12 @@
 :OWLClass_1b8748ac_ee77_44a7_8747_9c08523571a0 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_fc38f31c_e055_4b18_82f4_551916245567> ;
                                                rdfs:label "categorization scheme for application components"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_1c09ca99_276c_4b9b_a862_1ea48c2d30d7
+:OWLClass_1c09ca99_276c_4b9b_a862_1ea48c2d30d7 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_87e1ad00_907c_4afe_bec0_37e727f5b8ae ;
+                                               rdfs:label "docker windows container image"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_1c6827fb_5a5d_4564_baa8_e6548f798cfc
@@ -546,6 +570,12 @@
                                                rdfs:label "communicative programming"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_23e77654_14b9_4cbc_b9b7_558aa7621ceb
+:OWLClass_23e77654_14b9_4cbc_b9b7_558aa7621ceb rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_8df329d2_f09d_42f5_90d6_68323d60f590 ;
+                                               rdfs:label "docker container image repository"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_248151c4_8587_4d2b_ba58_8720d246e54d
 :OWLClass_248151c4_8587_4d2b_ba58_8720d246e54d rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_5b65766d_3ff2_4f38_a305_0b7c3df8eef1 ;
@@ -575,6 +605,13 @@
 :OWLClass_279311ff_1edf_4992_9093_d2e78db2170d rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_3718d706_09e2_4ef6_8a74_17ad1d553e7b ;
                                                rdfs:label "ipv4 protocol"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_27dde928_448c_4086_9588_ffa56cc5dae0
+:OWLClass_27dde928_448c_4086_9588_ffa56cc5dae0 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9 ;
+                                               rdfs:comment "PHP program library package" ;
+                                               rdfs:label "composer package"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_2832d278_eadb_427b_855f_e0551f5de87e
@@ -608,10 +645,22 @@
                                                rdfs:label "document data model"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_2be23e02_f61c_4ff3_9fdc_1a63b22a5ce3
+:OWLClass_2be23e02_f61c_4ff3_9fdc_1a63b22a5ce3 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_55d74cc8_ed9e_412d_a43a_ea444532f3a5 ;
+                                               rdfs:label "composer package repository"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_2c7d5304_9c44_426d_bce1_3e26a7f0e74f
 :OWLClass_2c7d5304_9c44_426d_bce1_3e26a7f0e74f rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_4d5e3872_fc1f_4c30_9ff0_1f24342d6fcb ;
                                                rdfs:label "computer program compiler"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_2de5b2f5_647d_4a13_8935_bac3b7d6ce82
+:OWLClass_2de5b2f5_647d_4a13_8935_bac3b7d6ce82 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_53b504e6_263a_44ff_92c0_3d9690e9fe0c ;
+                                               rdfs:label "helm package repository"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_2e48d131_dcfe_4d85_89e2_a1db5eaa2732
@@ -624,6 +673,12 @@
 :OWLClass_2ed6d771_0d88_44c3_8ed6_f9965da6347c rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
                                                rdfs:label "application"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_30b0c864_c126_471a_8fba_fb022d6d188c
+:OWLClass_30b0c864_c126_471a_8fba_fb022d6d188c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_c08473d3_24bf_48dc_8c3c_65c93255c1a9 ;
+                                               rdfs:label "android apk package repository"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_314b093c_2ea5_4244_872f_726649d694d5
@@ -650,10 +705,23 @@
                                                rdfs:label "property graph database functional role"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_3414b180_bfdf_4605_90a0_23bdce0a60f1
+:OWLClass_3414b180_bfdf_4605_90a0_23bdce0a60f1 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9 ;
+                                               rdfs:comment "JavaScript / ECMAScript program library package for Node.js" ;
+                                               rdfs:label "npm package"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_352a28f0_ea42_46df_96fb_5ebd7e30f60f
 :OWLClass_352a28f0_ea42_46df_96fb_5ebd7e30f60f rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_5164081e_37a7_4729_a824_cbdb0c407e8a ;
                                                rdfs:label "bytecode"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_352e4ff1_a060_4a1b_aa4b_563242bc6645
+:OWLClass_352e4ff1_a060_4a1b_aa4b_563242bc6645 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_55d74cc8_ed9e_412d_a43a_ea444532f3a5 ;
+                                               rdfs:label "cocoapod package repository"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_35e80d44_587f_42f5_9877_20213db8b150
@@ -667,6 +735,13 @@
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_7c6e712c_9b9b_4760_b470_d3e6303ff227> ;
                                                rdfs:comment "a collection of services provided by a set of computer programs that manage / allocate physical resources of a computer system" ;
                                                rdfs:label "computer operating system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_369f4d1b_c3f9_454d_8648_4afd8fa939a1
+:OWLClass_369f4d1b_c3f9_454d_8648_4afd8fa939a1 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9 ;
+                                               rdfs:comment "Swift and Objective-C program library package" ;
+                                               rdfs:label "cocoapod package"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_370f4193_5b8d_4b4e_b08e_3a393af1368d
@@ -699,11 +774,23 @@
                                                rdfs:label "c++ program library"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_3cad7a3b_9b08_4ff3_a797_7cf4e43765e6
+:OWLClass_3cad7a3b_9b08_4ff3_a797_7cf4e43765e6 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_c08473d3_24bf_48dc_8c3c_65c93255c1a9 ;
+                                               rdfs:label "deb package repository"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_3cecafe4_04a9_4c79_ac73_5408f2644fa0
 :OWLClass_3cecafe4_04a9_4c79_ac73_5408f2644fa0 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_7c6e712c_9b9b_4760_b470_d3e6303ff227> ;
                                                rdfs:comment "a composition of computer hardware and software to provide services to users" ;
                                                rdfs:label "computer system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_3e1ec2f1_687e_4878_8cba_f793c3e903d6
+:OWLClass_3e1ec2f1_687e_4878_8cba_f793c3e903d6 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_db60907d_47f8_4c01_9d91_e2a422757add ;
+                                               rdfs:label "docker linux container image"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_3f0125e1_9818_4e10_8acd_459e0a071483
@@ -758,6 +845,12 @@
 :OWLClass_4772e858_1b1f_442b_839f_3b011f178924 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_cf3062e0_2495_4e6a_83ae_cc6d072e2132 ;
                                                rdfs:label "irc protocol"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_48210395_bbb1_482f_ad6b_2341fa08eddf
+:OWLClass_48210395_bbb1_482f_ad6b_2341fa08eddf rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9 ;
+                                               rdfs:label "powershell module package"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_48b934d9_a857_46ef_b4ea_18ca2381ce73
@@ -815,6 +908,12 @@
                                                rdfs:label "telnet protocol"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_50370007_7d79_498e_847b_3f75c60a1a24
+:OWLClass_50370007_7d79_498e_847b_3f75c60a1a24 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_55d74cc8_ed9e_412d_a43a_ea444532f3a5 ;
+                                               rdfs:label "bower package repository"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_5095db07_98e7_44ab_af26_4a8dbaec5845
 :OWLClass_5095db07_98e7_44ab_af26_4a8dbaec5845 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_fc38f31c_e055_4b18_82f4_551916245567> ;
@@ -833,6 +932,12 @@
                                                rdfs:label "python program library"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_53b504e6_263a_44ff_92c0_3d9690e9fe0c
+:OWLClass_53b504e6_263a_44ff_92c0_3d9690e9fe0c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_b77c55a9_935a_46aa_8e0d_fe0589334de8 ;
+                                               rdfs:label "kubernetes package repository"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_54f95e30_d30a_4836_96d3_2bfb6ae2c7a1
 :OWLClass_54f95e30_d30a_4836_96d3_2bfb6ae2c7a1 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37 ;
@@ -843,6 +948,12 @@
 :OWLClass_55788b9a_92e1_446e_ab14_abd972d567a9 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_fc380cd3_5902_48d4_b353_2608f4321494 ;
                                                rdfs:label "application system capability user"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_55d74cc8_ed9e_412d_a43a_ea444532f3a5
+:OWLClass_55d74cc8_ed9e_412d_a43a_ea444532f3a5 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_b77c55a9_935a_46aa_8e0d_fe0589334de8 ;
+                                               rdfs:label "program language library package"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_56ac702d_cf50_4a1d_8190_22f088aa1997
@@ -875,10 +986,23 @@
                                                rdfs:label "trcp protocol"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_59e8306b_61cc_4aec_94e2_317f590ee723
+:OWLClass_59e8306b_61cc_4aec_94e2_317f590ee723 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_55d74cc8_ed9e_412d_a43a_ea444532f3a5 ;
+                                               rdfs:label "powershell module repository"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_5b65766d_3ff2_4f38_a305_0b7c3df8eef1
 :OWLClass_5b65766d_3ff2_4f38_a305_0b7c3df8eef1 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_d5db9e9a_ff30_4030_abca_86b2dab3a411 ;
                                                rdfs:label "computer programming language"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_5bca4b28_2229_4cb3_8058_1f52d93e626d
+:OWLClass_5bca4b28_2229_4cb3_8058_1f52d93e626d rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9 ;
+                                               rdfs:comment "Python PyPI program library package" ;
+                                               rdfs:label "pip package"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_5d7fbd41_82f7_48c5_9a37_fae67264aae5
@@ -905,6 +1029,12 @@
 :OWLClass_5e2a57ca_32ee_4ad4_81b3_6894ea38bdb5 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_332c872e_9f5d_43c1_b2b9_19dbaba6fc1b> ;
                                                rdfs:label "category of application system development time platform"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_5f4ec823_0787_49e4_b2b6_9f6d88d2d42d
+:OWLClass_5f4ec823_0787_49e4_b2b6_9f6d88d2d42d rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_0c12112b_f56c_44a8_a60b_68c335f50eeb ;
+                                               rdfs:label "android apk package"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_60b2743c_ebdb_47a9_b371_85a749f86594
@@ -1091,6 +1221,18 @@
                                                rdfs:label "assembly code"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_78edb1e5_faf7_4e49_b5c2_d8708c2d986f
+:OWLClass_78edb1e5_faf7_4e49_b5c2_d8708c2d986f rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_55d74cc8_ed9e_412d_a43a_ea444532f3a5 ;
+                                               rdfs:label "pip package repository"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_79e73d10_ef26_4bd6_9a3f_65f447408e02
+:OWLClass_79e73d10_ef26_4bd6_9a3f_65f447408e02 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_ef09aba7_5e58_439e_a0fb_c8388bfd8c5e ;
+                                               rdfs:label "helm package"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_7a1da924_0108_41e1_88a7_fc9b79a443f1
 :OWLClass_7a1da924_0108_41e1_88a7_fc9b79a443f1 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_cf3062e0_2495_4e6a_83ae_cc6d072e2132 ;
@@ -1119,6 +1261,12 @@
 :OWLClass_7e877799_2fe2_4fb4_ada9_033daa8453b1 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
                                                rdfs:label "data"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_7fe5b22d_b797_4cfa_b65a_a6e566c2cc74
+:OWLClass_7fe5b22d_b797_4cfa_b65a_a6e566c2cc74 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_c08473d3_24bf_48dc_8c3c_65c93255c1a9 ;
+                                               rdfs:label "snap package repository"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_8073eff1_fd29_4e97_88c1_289eaf206f9e
@@ -1182,6 +1330,12 @@
                                                rdfs:label "webassembly code"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_87e1ad00_907c_4afe_bec0_37e727f5b8ae
+:OWLClass_87e1ad00_907c_4afe_bec0_37e727f5b8ae rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d2a381f5_c5be_4429_a56f_da1013cec6bb ;
+                                               rdfs:label "windows container image"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_88ea696b_b30e_4237_8e74_8ba2c8146414
 :OWLClass_88ea696b_b30e_4237_8e74_8ba2c8146414 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_5da1540c_709f_46a6_aa17_3cb6114fd199 ;
@@ -1228,6 +1382,18 @@
 :OWLClass_8dedb8da_3fcc_4199_8256_c2bab6c72185 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_cdfc0fed_be47_45e4_8d6d_5f164972879f ;
                                                rdfs:label "csv data format"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_8df329d2_f09d_42f5_90d6_68323d60f590
+:OWLClass_8df329d2_f09d_42f5_90d6_68323d60f590 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_b77c55a9_935a_46aa_8e0d_fe0589334de8 ;
+                                               rdfs:label "computer process container image repository"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_8ef4e92d_647a_45f8_81e6_8392e6267806
+:OWLClass_8ef4e92d_647a_45f8_81e6_8392e6267806 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_0c12112b_f56c_44a8_a60b_68c335f50eeb ;
+                                               rdfs:label "deb package"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_8f92d685_790c_4813_87a0_2208cc989f21
@@ -1309,6 +1475,12 @@
                                                rdfs:label "computer operating system software"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_9e21fe07_7430_455f_a25a_136f645ffeef
+:OWLClass_9e21fe07_7430_455f_a25a_136f645ffeef rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_0c12112b_f56c_44a8_a60b_68c335f50eeb ;
+                                               rdfs:label "alpine apk package"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_9e2eda3f_908f_4bf9_b2d6_42a90f905110
 :OWLClass_9e2eda3f_908f_4bf9_b2d6_42a90f905110 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_d0106981_031b_4e92_8efb_69081630a844 ;
@@ -1361,6 +1533,12 @@
                                                rdfs:label "computer file"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_a49a1748_d916_4b18_8c95_b21a3486709b
+:OWLClass_a49a1748_d916_4b18_8c95_b21a3486709b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_c08473d3_24bf_48dc_8c3c_65c93255c1a9 ;
+                                               rdfs:label "rpm package repository"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_a49ef4de_6e93_4137_b030_568b6d616e01
 :OWLClass_a49ef4de_6e93_4137_b030_568b6d616e01 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_cf3062e0_2495_4e6a_83ae_cc6d072e2132 ;
@@ -1388,7 +1566,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9
 :OWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_7a3a3167_df0e_432f_864c_4e313407006b ;
-                                               rdfs:label "software distribution package"@en .
+                                               rdfs:label "program language library package"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_a6f3bf43_3856_483c_a05c_4f376cad0c16
@@ -1429,6 +1607,12 @@
                                                rdfs:label "application system api"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_abdd573b_5384_47d0_a150_c1b3d2312962
+:OWLClass_abdd573b_5384_47d0_a150_c1b3d2312962 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_c08473d3_24bf_48dc_8c3c_65c93255c1a9 ;
+                                               rdfs:label "alpine apk package repository"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_ac11df79_7f9b_4aac_aec0_22e6a73cce0f
 :OWLClass_ac11df79_7f9b_4aac_aec0_22e6a73cce0f rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_13e1d334_65bc_4eb1_b343_2a1fa3e6b493 ;
@@ -1446,6 +1630,13 @@
 :OWLClass_ae3ac59b_6697_4e07_b702_28bab560fb51 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_fc6df637_be17_4620_9a69_6226a1e1f063 ;
                                                rdfs:label "bluetooth protocol"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_aece2954_08ad_4732_9c1c_85b8195325c0
+:OWLClass_aece2954_08ad_4732_9c1c_85b8195325c0 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9 ;
+                                               rdfs:comment "typically Java program library package" ;
+                                               rdfs:label "apache maven package"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_af1b6ec5_5658_4498_ba0c_cc01a06ab375
@@ -1484,6 +1675,12 @@
 :OWLClass_b32e8785_962a_4f8c_980a_ca9810f9f04a rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_ad4ee093_8ce7_4752_a447_b480752a3b1e ;
                                                rdfs:label "application system interface"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_b34c7c3a_1c7b_4a06_8ddb_0ed9e55b8146
+:OWLClass_b34c7c3a_1c7b_4a06_8ddb_0ed9e55b8146 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9 ;
+                                               rdfs:label "nuget package"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_b364e3eb_3c02_4c83_9978_bc9f0d20dee4
@@ -1529,6 +1726,13 @@
                                                rdfs:label "rpc protocol"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_b5dac345_687b_467f_b009_cf53e1463242
+:OWLClass_b5dac345_687b_467f_b009_cf53e1463242 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_0c12112b_f56c_44a8_a60b_68c335f50eeb ;
+                                               rdfs:comment "Canonical snap package" ;
+                                               rdfs:label "snap package"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_b5e60d72_739d_4a16_b231_c5f86b0c80c0
 :OWLClass_b5e60d72_739d_4a16_b231_c5f86b0c80c0 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_c9bd890b_25c9_4407_b809_31d79fd2e958 ;
@@ -1553,6 +1757,12 @@
                                                rdfs:label "application system graphical user interface"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_b77c55a9_935a_46aa_8e0d_fe0589334de8
+:OWLClass_b77c55a9_935a_46aa_8e0d_fe0589334de8 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "software package repository"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_b80f0365_3c0c_4511_860b_66cb4f200990
 :OWLClass_b80f0365_3c0c_4511_860b_66cb4f200990 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_4e006be7_3c28_45c0_ad2f_52024842de70 ;
@@ -1563,6 +1773,12 @@
 :OWLClass_b816c6bb_b91a_4490_9e5e_607717f2198a rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_0c67b3e0_00c3_42c6_8d80_ac1f94ebde06 ;
                                                rdfs:label "data repository functional role"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_ba5f4779_364c_4fb3_82b1_4397761e0256
+:OWLClass_ba5f4779_364c_4fb3_82b1_4397761e0256 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_55d74cc8_ed9e_412d_a43a_ea444532f3a5 ;
+                                               rdfs:label "apache maven package repository"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_ba9e451b_e9e9_4657_a14a_4f6ff259657c
@@ -1612,6 +1828,12 @@
                                                rdfs:subClassOf :OWLClass_c9bd890b_25c9_4407_b809_31d79fd2e958 ;
                                                rdfs:comment "address resolution protocol" ;
                                                rdfs:label "arp protocol"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_c08473d3_24bf_48dc_8c3c_65c93255c1a9
+:OWLClass_c08473d3_24bf_48dc_8c3c_65c93255c1a9 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_b77c55a9_935a_46aa_8e0d_fe0589334de8 ;
+                                               rdfs:label "os software package repository"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_c269cb81_46c9_4613_b8e0_54e6ac24b58c
@@ -1693,6 +1915,13 @@
                                                rdfs:label "computer file functional role"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_cdb1660f_2cb2_49fe_856e_1ef3ba1d519c
+:OWLClass_cdb1660f_2cb2_49fe_856e_1ef3ba1d519c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9 ;
+                                               rdfs:comment "JavaScript and CSS package" ;
+                                               rdfs:label "bower package"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_cdfc0fed_be47_45e4_8d6d_5f164972879f
 :OWLClass_cdfc0fed_be47_45e4_8d6d_5f164972879f rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_d83c06c0_7688_4e24_ba2d_cc7286942838 ;
@@ -1745,6 +1974,12 @@
 :OWLClass_d265f499_3f78_4697_8b05_ff57a4765fca rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_5da1540c_709f_46a6_aa17_3cb6114fd199 ;
                                                rdfs:label "mtcp protocol"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_d2a381f5_c5be_4429_a56f_da1013cec6bb
+:OWLClass_d2a381f5_c5be_4429_a56f_da1013cec6bb rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_7a3a3167_df0e_432f_864c_4e313407006b ;
+                                               rdfs:label "computer process container image"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_d336cd89_ded0_40f8_a40a_e2b481491394
@@ -1829,6 +2064,12 @@
 :OWLClass_da78662a_c475_4133_8390_752480dd36d0 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_5b65766d_3ff2_4f38_a305_0b7c3df8eef1 ;
                                                rdfs:label "cobol programming language"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_db60907d_47f8_4c01_9d91_e2a422757add
+:OWLClass_db60907d_47f8_4c01_9d91_e2a422757add rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d2a381f5_c5be_4429_a56f_da1013cec6bb ;
+                                               rdfs:label "linux container image"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_dc139e39_3060_467a_98b9_d19a7b04595e
@@ -1958,6 +2199,12 @@
                                                rdfs:label "application user interface"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_ef09aba7_5e58_439e_a0fb_c8388bfd8c5e
+:OWLClass_ef09aba7_5e58_439e_a0fb_c8388bfd8c5e rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_7a3a3167_df0e_432f_864c_4e313407006b ;
+                                               rdfs:label "kubernetes package"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_ef88b5fd_62d8_44e4_8bc6_096d199fdc0e
 :OWLClass_ef88b5fd_62d8_44e4_8bc6_096d199fdc0e rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_b66385df_1135_457c_925a_6eb1457b2bbd ;
@@ -1969,6 +2216,12 @@
                                                rdfs:subClassOf :OWLClass_75e3ce23_e0a5_4fdd_9b31_e036037da499 ;
                                                rdfs:comment "w3c xml schema definition (xsd) data schema" ;
                                                rdfs:label "w3c xsd data schema"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_f1327986_9fe4_43e8_b9cc_d9e5bba6335a
+:OWLClass_f1327986_9fe4_43e8_b9cc_d9e5bba6335a rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_55d74cc8_ed9e_412d_a43a_ea444532f3a5 ;
+                                               rdfs:label "rubygem package repository"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_f462412e_bf1c_41bd_90a6_3b60b954bfb8
@@ -2023,6 +2276,13 @@
 :OWLClass_fc6df637_be17_4620_9a69_6226a1e1f063 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_73ba7ce6_f757_42fe_a8b2_3daee9cff005 ;
                                                rdfs:label "l1 computer network protocol"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_fce0b3f7_b6a2_4908_b515_aa011c480e5b
+:OWLClass_fce0b3f7_b6a2_4908_b515_aa011c480e5b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9 ;
+                                               rdfs:comment "Ruby program library package" ;
+                                               rdfs:label "rubygem package"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_fd50bd7f_c567_43b9_8213_61bcb9ea21e3
