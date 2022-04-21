@@ -1227,6 +1227,12 @@
                                                rdfs:label "pip package repository"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_790fc60f_a909_4801_a19e_98c61c9ae997
+:OWLClass_790fc60f_a909_4801_a19e_98c61c9ae997 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_2893c68c_a708_41c1_936f_a24a45e9d982> ;
+                                               rdfs:label "software package functional role"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_79e73d10_ef26_4bd6_9a3f_65f447408e02
 :OWLClass_79e73d10_ef26_4bd6_9a3f_65f447408e02 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_ef09aba7_5e58_439e_a0fb_c8388bfd8c5e ;
@@ -1737,6 +1743,12 @@
 :OWLClass_b5e60d72_739d_4a16_b231_c5f86b0c80c0 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_c9bd890b_25c9_4407_b809_31d79fd2e958 ;
                                                rdfs:label "frame relay protocol"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_b6355636_5bd2_43cc_b0e6_7e789e832d68
+:OWLClass_b6355636_5bd2_43cc_b0e6_7e789e832d68 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_790fc60f_a909_4801_a19e_98c61c9ae997 ;
+                                               rdfs:label "software installation package"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_b65aff18_9e2b_495a_9a5a_93f62b0a2500
